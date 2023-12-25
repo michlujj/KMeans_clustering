@@ -1,5 +1,5 @@
 # K means (Partitioning) clustering on Organic Food purchase Indicator ANL305 assignment
-# data source: https://www.kaggle.com/datasets/papercool/organics-purchase-indicator/code
+
 
 rm(list = ls()) # to clear the environment on R console
 
@@ -192,13 +192,3 @@ print(organic_K2)
 # to visualise k=2 cluster created
 fviz_cluster(organic_K2, data = organic)
 
-
-
-# https://cran.r-project.org/web/packages/naniar/vignettes/replace-with-na.html
-# https://towardsdatascience.com/data-cleaning-with-r-and-the-tidyverse-detecting-missing-values-ea23c519bc62
-# https://www.datacamp.com/community/tutorials/k-means-clustering-r
-# https://www.guru99.com/r-k-means-clustering.html
-# outlier detection: https://statsandr.com/blog/outliers-detection-in-r/
-# https://rpubs.com/Mentors_Ubiqum/removing_outliers
-# How to : https://rpubs.com/abdul_yunus/Kmeans_Clustering
-# *Remove outliers multiple columns in R:https://quick-adviser.com/how-do-i-remove-multiple-outliers-in-r/
